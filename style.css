@@ -1,0 +1,172 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+:root{
+	--bg-color: #630a0a;
+	--text-color: #fff;
+	--main-color:#428850;
+}
+
+
+body{
+	min-height: 100vh;
+	background: var(--bg-color);
+	color: var(--text-color);
+}
+
+
+
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: transparent;
+	padding: 28px 12%;
+	transition: all .50s ease;
+
+
+}
+
+.logo i{
+	display: flex;
+	align-items: center;
+	color: var(--main-color);
+	font-size: 28px;
+	margin-right: 3px;
+}
+
+.logo span{
+	color: var(--text-color);
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+
+.navbar{
+	display: flex;
+}
+
+.navbar a {
+	color:var(--text-color);
+	font-size:1.1rem;
+	font-weight: 500;
+	padding: 5px 0;
+	margin: 0px 30px;
+	transition: all .50s ease
+}
+
+	
+label.logo{
+	color: white;
+	font-size: 40px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+
+nav ul{
+	float: right;
+	margin-right: 30px;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 30px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 19px;
+	padding: 7px 14px;
+	border-radius: 8px;
+	text-transform: uppercase;
+}
+
+a.ativa, a:hover{
+	background-color: #e5bc69;
+	transition:  .7s;
+}
+
+.img1 {
+    position: absolute;
+    background-color: rgba(255, 127, 80, 0.293);
+    width: 76.5% ;
+    height: 30% ;
+    margin-left: 10.2rem;
+    margin-right: -20rem;
+    margin-top: 9.5rem;
+}
+
+.img1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.linha{
+    position: absolute;
+    background-color: var(--text-color);
+    width:76.5%;
+    height: 0.3%;
+    margin-left: 10.2rem;
+    margin-right: -20rem;
+    margin-top: 30rem;
+}
+
+.news1{
+    position: absolute;
+    margin-top: 33rem;
+    margin-left: 10.2rem;
+    
+}
+
+.news1 img{
+    width: 50%;
+    height: 50%;
+}
+
+.infonews1 {
+    
+    position: absolute;
+    margin-top: 33rem;
+    margin-left: 45rem;
+    margin-right: 13.6rem;
+}
+
+.infonews1 h2{
+    margin-bottom: 3rem;
+}
+
+
+.news2{
+	position: absolute;
+	margin-top: 65rem;
+	margin-left: 45rem;
+	margin-right: 13.6rem;
+}
+
+.news2 img{
+	width: 70%;
+	height: 60%;
+}
+
+.infonews2{
+	position: absolute;
+	margin-top: 65rem;
+	margin-left: 10.2rem;
+	width: 35%
+}
+
+.infonews2 h2{
+	margin-bottom: 3rem;
+}
